@@ -1,4 +1,4 @@
-# Obscuria Ecosystem License (OEL) v1.3
+# Obscuria Modding License (OML) v1.3
 
 Obscuria projects are distributed under a custom license designed to protect project identity and official distribution while supporting an open modding ecosystem. All rights not expressly granted remain reserved.
 
