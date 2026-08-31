@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "ancient_remnants:sentinel_monolith/start",
+  "start_height": {
+    "absolute": 20
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "biomes": "#ancient_remnants:has_structure/sentinel_monolith",
+  "step": "surface_structures",
+  "max_distance_from_center": 128,
+  "size": 8,
+  "use_expansion_hack": false,
+  "spawn_overrides": {}
+}

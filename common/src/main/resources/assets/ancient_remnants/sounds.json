@@ -1,0 +1,29 @@
+{
+  "ambient.monolith": {
+    "sounds": [
+      {
+        "name": "ancient_remnants:ambient_monolith_1",
+        "stream": true
+      },
+      {
+        "name": "ancient_remnants:ambient_monolith_2",
+        "stream": true
+      }
+    ]
+  },
+  "effect.wind_loop": {
+    "sounds": [
+      {
+        "name": "ancient_remnants:effect_wind_loop",
+        "stream": true
+      }
+    ]
+  },
+  "effect.blessing": {
+    "sounds": [
+      "ancient_remnants:effect_blessing_1",
+      "ancient_remnants:effect_blessing_2",
+      "ancient_remnants:effect_blessing_3"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "biomes": "ancient_remnants:has_structure/warrior_monolith",
+  "texture": "ancient_remnants:textures/gui/research/warrior_monolith.png",
+  "header": {
+    "translate": "structure.ancient_remnants.warrior_monolith"
+  },
+  "content": {
+    "translate": "research.ancient_remnants.warrior_monolith"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ancient_remnants:research_scrap"
+  ],
+  "result": {
+    "id": "minecraft:paper",
+    "count": 3
+  }
+}

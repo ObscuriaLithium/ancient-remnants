@@ -1,0 +1,10 @@
+{
+  "biomes": "ancient_remnants:has_structure/sentinel_monolith",
+  "texture": "ancient_remnants:textures/gui/research/sentinel_monolith.png",
+  "header": {
+    "translate": "structure.ancient_remnants.sentinel_monolith"
+  },
+  "content": {
+    "translate": "research.ancient_remnants.sentinel_monolith"
+  }
+}

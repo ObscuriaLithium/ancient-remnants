@@ -1,0 +1,10 @@
+{
+  "biomes": "ancient_remnants:has_structure/hunter_monolith",
+  "texture": "ancient_remnants:textures/gui/research/hunter_monolith.png",
+  "header": {
+    "translate": "structure.ancient_remnants.hunter_monolith"
+  },
+  "content": {
+    "translate": "research.ancient_remnants.hunter_monolith"
+  }
+}

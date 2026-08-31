@@ -1,0 +1,9 @@
+{
+  "type": "ancient_remnants:codex_restoration",
+  "category": "misc",
+  "codex": "ancient_remnants:monolith_codex",
+  "scrap": "ancient_remnants:research_scrap",
+  "result": {
+    "id": "ancient_remnants:monolith_codex"
+  }
+}

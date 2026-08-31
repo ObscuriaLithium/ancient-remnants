@@ -1,0 +1,15 @@
+{
+  "name": "ancient_remnants:coniferous_monument/bottom_2",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ancient_remnants:coniferous_monument/bottom_2",
+        "processors": "ancient_remnants:monument",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

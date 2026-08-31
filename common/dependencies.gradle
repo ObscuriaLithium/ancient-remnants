@@ -1,0 +1,4 @@
+dependencies {
+    api("dev.obscuria:fragmentum-common:${minecraft_version}-${fragmentum_version}")
+    api("dev.isxander:yet-another-config-lib:${yacl_version}+${minecraft_version}-neoforge")
+}

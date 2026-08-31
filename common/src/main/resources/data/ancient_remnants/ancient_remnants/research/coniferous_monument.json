@@ -1,0 +1,11 @@
+{
+  "biomes": "ancient_remnants:has_structure/coniferous_monument",
+  "texture": "ancient_remnants:textures/gui/research/coniferous_monument.png",
+  "header": {
+    "translate": "structure.ancient_remnants.coniferous_monument"
+  },
+  "content": {
+    "translate": "research.ancient_remnants.coniferous_monument"
+  },
+  "right_page": true
+}

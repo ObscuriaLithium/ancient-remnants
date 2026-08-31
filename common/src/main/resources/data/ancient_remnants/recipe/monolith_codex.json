@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:book",
+    "B": "minecraft:amethyst_shard",
+    "C": "minecraft:deepslate"
+  },
+  "pattern": [
+    "CBC",
+    "BAB",
+    "CBC"
+  ],
+  "result": {
+    "id": "ancient_remnants:monolith_codex"
+  }
+}

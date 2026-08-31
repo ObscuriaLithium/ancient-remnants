@@ -1,0 +1,8 @@
+dependencies {
+    implementation("dev.obscuria:fragmentum-fabric:${minecraft_version}-${fragmentum_version}")
+    implementation("fuzs.forgeconfigapiport:forgeconfigapiport-fabric:${config_version}")
+    implementation("dev.isxander:yet-another-config-lib:${yacl_version}+${minecraft_version}-fabric")
+    implementation("com.terraformersmc:modmenu:${fabric_modmenu_version}")
+
+    localRuntime("curse.maven:worldedit-225608:8037379")
+}

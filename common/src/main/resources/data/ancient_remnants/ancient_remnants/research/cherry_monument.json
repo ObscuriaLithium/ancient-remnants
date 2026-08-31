@@ -1,0 +1,11 @@
+{
+  "biomes": "ancient_remnants:has_structure/cherry_monument",
+  "texture": "ancient_remnants:textures/gui/research/cherry_monument.png",
+  "header": {
+    "translate": "structure.ancient_remnants.cherry_monument"
+  },
+  "content": {
+    "translate": "research.ancient_remnants.cherry_monument"
+  },
+  "right_page": true
+}

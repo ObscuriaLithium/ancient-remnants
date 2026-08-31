@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.obscuria.remnants.fabric.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinStructureTemplate"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+  

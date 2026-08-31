@@ -1,0 +1,11 @@
+{
+  "biomes": "ancient_remnants:has_structure/oakwood_monument",
+  "texture": "ancient_remnants:textures/gui/research/oakwood_monument.png",
+  "header": {
+    "translate": "structure.ancient_remnants.oakwood_monument"
+  },
+  "content": {
+    "translate": "research.ancient_remnants.oakwood_monument"
+  },
+  "right_page": true
+}

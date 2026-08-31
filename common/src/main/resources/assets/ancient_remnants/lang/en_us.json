@@ -1,0 +1,56 @@
+{
+  "title.ancient_remnants.blessing_acquired": "Blessing Acquired",
+
+  "item.ancient_remnants.monolith_codex": "Monolith Codex",
+  "item.ancient_remnants.research_scrap": "Research Scrap",
+
+  "blessing.ancient_remnants.hunter_instincts": "Hunter Instincts",
+  "blessing.ancient_remnants.warrior_wrath": "Warrior Wrath",
+  "blessing.ancient_remnants.sentinel_aegis": "Sentinel Aegis",
+  "blessing.ancient_remnants.desperate_vitality": "Desperate Vitality",
+  "blessing.ancient_remnants.architect_reach": "Architect Reach",
+  "blessing.ancient_remnants.bountiful_harvest": "Bountiful Harvest",
+
+  "structure.ancient_remnants.hunter_monolith": "Hunter Monolith",
+  "structure.ancient_remnants.warrior_monolith": "Warrior Monolith",
+  "structure.ancient_remnants.sentinel_monolith": "Sentinel Monolith",
+  "structure.ancient_remnants.cherry_monument": "Cherry Monument",
+  "structure.ancient_remnants.oakwood_monument": "Oakwood Monument",
+  "structure.ancient_remnants.coniferous_monument": "Coniferous Monument",
+
+  "research.ancient_remnants.hunter_monolith": "A floating Monolith, revered by the hunting tribes of the scorching deserts. It granted them the agility and precision they needed to survive in lands where game was scarce and elusive, where feeding an entire settlement was no easy task.",
+  "research.ancient_remnants.warrior_monolith": "The legendary Monolith of warriors, said to have multiplied the strength of countless heroes. It is mentioned in many myths and legends of our world. Its power is a great responsibility, and those who wield it must understand the burden they carry.",
+  "research.ancient_remnants.sentinel_monolith": "The Monolith of guardians was revered by monks who favored defense over aggression. It granted endurance and resilience, its blessing ideal for those who chose a secluded life, far from pointless battles and endless conflict.",
+  "research.ancient_remnants.cherry_monument": "Legend says the Monument of life was gifted to the world by a pair of divine twins. Beneath it flow springs of life and eternal youth, feeding the roots of ancient cherry trees that bloom throughout the year. Its energy heals both body and mind.",
+  "research.ancient_remnants.oakwood_monument": "The Forest Monument is mentioned in elven manuscripts. Its blessing allowed forest peoples to preserve their lands while making better use of their scarce resources. The Monument’s gift increased the fertility of both soil and livestock.",
+  "research.ancient_remnants.coniferous_monument": "The Coniferous Monument may be the only temple built jointly by the taiga and mountain dwarves. It blessed its followers with skill in architecture and mining. Yet its origins remain a mystery; perhaps the dwarves raised it with divine intervention.",
+
+  "tooltip.ancient_remnants.page_of": "Page %s of %s",
+  "tooltip.ancient_remnants.codex_entry": "- %s",
+  "tooltip.ancient_remnants.codex_empty": "All pages are missing",
+  "tooltip.ancient_remnants.codex_complete": "All pages recovered!",
+
+  "config.ancient_remnants.category.world": "World",
+  "config.ancient_remnants.option.hunter_monolith_biomes": "Hunter Monolith Biomes",
+  "config.ancient_remnants.option.hunter_monolith_biomes.desc": "Biomes or biome tags where Hunter Monoliths can generate. Equivalent to editing the corresponding biome tag via a datapack.",
+  "config.ancient_remnants.option.warrior_monolith_biomes": "Warrior Monolith Biomes",
+  "config.ancient_remnants.option.warrior_monolith_biomes.desc": "Biomes or biome tags where Warrior Monoliths can generate. Equivalent to editing the corresponding biome tag via a datapack.",
+  "config.ancient_remnants.option.sentinel_monolith_biomes": "Sentinel Monolith Biomes",
+  "config.ancient_remnants.option.sentinel_monolith_biomes.desc": "Biomes or biome tags where Sentinel Monoliths can generate. Equivalent to editing the corresponding biome tag via a datapack.",
+  "config.ancient_remnants.option.cherry_monument_biomes": "Cherry Monument Biomes",
+  "config.ancient_remnants.option.cherry_monument_biomes.desc": "Biomes or biome tags where Cherry Monuments can generate. Equivalent to editing the corresponding biome tag via a datapack.",
+  "config.ancient_remnants.option.oakwood_monument_biomes": "Oakwood Monument Biomes",
+  "config.ancient_remnants.option.oakwood_monument_biomes.desc": "Biomes or biome tags where Oakwood Monuments can generate. Equivalent to editing the corresponding biome tag via a datapack.",
+  "config.ancient_remnants.option.coniferous_monument_biomes": "Coniferous Monument Biomes",
+  "config.ancient_remnants.option.coniferous_monument_biomes.desc": "Biomes or biome tags where Coniferous Monuments can generate. Equivalent to editing the corresponding biome tag via a datapack.",
+  "config.ancient_remnants.option.placement_spacing": "Spacing",
+  "config.ancient_remnants.option.placement_spacing.desc": "Spacing is the size of each structure placement region, measured in chunks. A new structure position is generated once per spacing × spacing region. Larger values result in fewer structures and greater distances between them.",
+  "config.ancient_remnants.option.placement_separation": "Separation",
+  "config.ancient_remnants.option.placement_separation.desc": "Separation reduces the range of possible positions within each spacing region by this many chunks along each axis. Higher values move structures toward the beginning of each region.",
+  "config.ancient_remnants.option.placement_biomes": "Biomes",
+  "config.ancient_remnants.option.placement_biomes.desc": "Biomes or biome tags where this structure can generate. Equivalent to editing the corresponding biome tag with a datapack.",
+
+  "config.ancient_remnants.button.configure": "Configure...",
+  "config.ancient_remnants.descWithAnyReload": "%s\n\n§6⚠ This option requires a world reload or /reload command to apply!",
+  "config.ancient_remnants.descWithWorldReload": "%s\n\n§6⚠ This option requires a world reload to apply!"
+}

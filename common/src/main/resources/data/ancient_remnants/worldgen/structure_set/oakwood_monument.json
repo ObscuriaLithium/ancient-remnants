@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 974248,
+    "spacing": 100,
+    "separation": 20
+  },
+  "structures": [
+    {
+      "structure": "ancient_remnants:oakwood_monument",
+      "weight": 1
+    }
+  ]
+}

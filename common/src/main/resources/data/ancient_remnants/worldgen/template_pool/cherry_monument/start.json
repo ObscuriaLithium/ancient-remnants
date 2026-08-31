@@ -1,0 +1,15 @@
+{
+  "name": "ancient_remnants:cherry_monument/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ancient_remnants:cherry_monument/start",
+        "processors": "ancient_remnants:monument",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ancient_remnants:hunter_monolith/middle",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ancient_remnants:hunter_monolith/middle",
+        "processors": "ancient_remnants:monolith",
+        "projection": "rigid"
+      }
+    }
+  ]
+}
