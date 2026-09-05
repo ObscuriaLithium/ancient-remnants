@@ -8,6 +8,7 @@ import net.minecraft.network.codec.ByteBufCodecs;
 import net.minecraft.network.codec.StreamCodec;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Stream;
@@ -18,6 +19,8 @@ public record StoredResearch(List<Holder<ResearchEntry>> entries) {
     public static final Codec<StoredResearch> CODEC;
     public static final StreamCodec<RegistryFriendlyByteBuf, StoredResearch> STREAM_CODEC;
 
+    private static final Comparator<Holder<ResearchEntry>> ORDER;
+
     public static StoredResearch of(Stream<Holder.Reference<ResearchEntry>> entries) {
         return new StoredResearch(entries.<Holder<ResearchEntry>>map(Function.identity()).toList());
     }
@@ -27,7 +30,7 @@ public record StoredResearch(List<Holder<ResearchEntry>> entries) {
     }
 
     public StoredResearch {
-        entries = List.copyOf(entries);
+        entries = entries.stream().distinct().sorted(ORDER).toList();
     }
 
     public boolean isEmpty() {
@@ -67,6 +70,7 @@ public record StoredResearch(List<Holder<ResearchEntry>> entries) {
     }
 
     static {
+        ORDER = Comparator.comparingInt(Holder::hashCode);
         EMPTY = new StoredResearch(List.of());
         CODEC = ResearchEntry.CODEC.listOf().xmap(StoredResearch::new, StoredResearch::entries);
         STREAM_CODEC = StreamCodec.composite(
