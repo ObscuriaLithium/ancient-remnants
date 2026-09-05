@@ -13,7 +13,9 @@ import dev.obscuria.remnants.registry.AncientRemnantsParticleTypes;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import org.jetbrains.annotations.Nullable;
 
 public final class AncientRemnantsClient {
 
@@ -22,6 +24,10 @@ public final class AncientRemnantsClient {
         registrar.registerModelLayer(ModelElderheart.LAYER, ModelElderheart::createBodyLayer);
         registrar.registerEntityRenderer(AncientRemnantsEntityTypes.ELDERHEART, ElderheartRenderer::new);
         registrar.registerTexturedParticleRenderer(AncientRemnantsParticleTypes.CRYSTAL, CrystalParticle.Provider::new);
+    }
+
+    public static @Nullable Player localPlayer() {
+        return Minecraft.getInstance().player;
     }
 
     public static void openMonolithCodexScreen(ItemStack stack, RegistryAccess registryAccess) {

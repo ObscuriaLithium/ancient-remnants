@@ -8,7 +8,6 @@ import dev.obscuria.remnants.common.blessing.Blessing;
 import dev.obscuria.remnants.network.ClientboundBlessingAcquiredPayload;
 import dev.obscuria.remnants.registry.AncientRemnantsSoundEvents;
 import net.minecraft.ChatFormatting;
-import net.minecraft.client.Minecraft;
 import net.minecraft.core.Holder;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
@@ -105,7 +104,8 @@ public class Elderheart extends Entity {
     }
 
     private void handleClientPlayerEffects() {
-        @Nullable var player = Minecraft.getInstance().player;
+        if (!level().isClientSide()) return;
+        @Nullable var player = AncientRemnantsClient.localPlayer();
         if (player == null || distanceTo(player) > 256) return;
         AncientRemnantsClient.playElderheartSound(this, AncientRemnantsSoundEvents.AMBIENT_MONOLITH);
 
