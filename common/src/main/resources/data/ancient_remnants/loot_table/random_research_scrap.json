@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "ancient_remnants:research_scrap",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ancient_remnants:research_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ancient_remnants:stored_research": [
+                  "ancient_remnants:hunter_monolith"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ancient_remnants:research_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ancient_remnants:stored_research": [
+                  "ancient_remnants:warrior_monolith"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ancient_remnants:research_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ancient_remnants:stored_research": [
+                  "ancient_remnants:sentinel_monolith"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ancient_remnants:research_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ancient_remnants:stored_research": [
+                  "ancient_remnants:cherry_monument"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ancient_remnants:research_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ancient_remnants:stored_research": [
+                  "ancient_remnants:oakwood_monument"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ancient_remnants:research_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ancient_remnants:stored_research": [
+                  "ancient_remnants:coniferous_monument"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
