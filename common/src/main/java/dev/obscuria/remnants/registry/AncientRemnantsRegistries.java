@@ -36,5 +36,6 @@ public final class AncientRemnantsRegistries {
         AncientRemnantsParticleTypes.init();
         AncientRemnantsItems.init();
         AncientRemnantsRecipeSerializers.init();
+        AncientRemnantsStructurePlacements.init();
     }
 }
