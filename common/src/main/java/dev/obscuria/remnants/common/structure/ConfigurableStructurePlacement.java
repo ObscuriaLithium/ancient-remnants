@@ -59,8 +59,8 @@ public class ConfigurableStructurePlacement extends RandomSpreadStructurePlaceme
 
         static {
             CODEC = RecordCodecBuilder.mapCodec(builder -> builder.group(
-                    IntConfigReference.CODEC.fieldOf("spacing").forGetter(Config::spacing),
-                    IntConfigReference.CODEC.fieldOf("separation").forGetter(Config::separation),
+                    IntConfigReference.CODEC.fieldOf("spacing_config").forGetter(Config::spacing),
+                    IntConfigReference.CODEC.fieldOf("separation_config").forGetter(Config::separation),
                     RandomSpreadType.CODEC.optionalFieldOf("spread_type", RandomSpreadType.LINEAR).forGetter(Config::spreadType)
             ).apply(builder, Config::new));
         }

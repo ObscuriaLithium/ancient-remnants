@@ -2,8 +2,8 @@
   "placement": {
     "type": "ancient_remnants:configurable_random_spread",
     "salt": 912372,
-    "spacing": "@SENTINEL_MONOLITH_PLACEMENT_SPACING",
-    "separation": "@SENTINEL_MONOLITH_PLACEMENT_SEPARATION"
+    "spacing_config": "@SENTINEL_MONOLITH_PLACEMENT_SPACING",
+    "separation_config": "@SENTINEL_MONOLITH_PLACEMENT_SEPARATION"
   },
   "structures": [
     {

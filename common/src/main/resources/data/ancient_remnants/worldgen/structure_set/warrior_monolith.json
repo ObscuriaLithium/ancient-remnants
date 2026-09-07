@@ -2,8 +2,8 @@
   "placement": {
     "type": "ancient_remnants:configurable_random_spread",
     "salt": 353292,
-    "spacing": "@WARRIOR_MONOLITH_PLACEMENT_SPACING",
-    "separation": "@WARRIOR_MONOLITH_PLACEMENT_SEPARATION"
+    "spacing_config": "@WARRIOR_MONOLITH_PLACEMENT_SPACING",
+    "separation_config": "@WARRIOR_MONOLITH_PLACEMENT_SEPARATION"
   },
   "structures": [
     {

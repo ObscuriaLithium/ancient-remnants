@@ -2,8 +2,8 @@
   "placement": {
     "type": "ancient_remnants:configurable_random_spread",
     "salt": 431596,
-    "spacing": "@CONIFEROUS_MONUMENT_PLACEMENT_SPACING",
-    "separation": "@CONIFEROUS_MONUMENT_PLACEMENT_SEPARATION"
+    "spacing_config": "@CONIFEROUS_MONUMENT_PLACEMENT_SPACING",
+    "separation_config": "@CONIFEROUS_MONUMENT_PLACEMENT_SEPARATION"
   },
   "structures": [
     {

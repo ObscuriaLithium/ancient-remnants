@@ -2,8 +2,8 @@
   "placement": {
     "type": "ancient_remnants:configurable_random_spread",
     "salt": 469246,
-    "spacing": "@HUNTER_MONOLITH_PLACEMENT_SPACING",
-    "separation": "@HUNTER_MONOLITH_PLACEMENT_SEPARATION"
+    "spacing_config": "@HUNTER_MONOLITH_PLACEMENT_SPACING",
+    "separation_config": "@HUNTER_MONOLITH_PLACEMENT_SEPARATION"
   },
   "structures": [
     {

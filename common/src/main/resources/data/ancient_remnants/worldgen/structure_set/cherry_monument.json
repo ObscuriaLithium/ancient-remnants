@@ -2,8 +2,8 @@
   "placement": {
     "type": "ancient_remnants:configurable_random_spread",
     "salt": 495246,
-    "spacing": "@CHERRY_MONUMENT_PLACEMENT_SPACING",
-    "separation": "@CHERRY_MONUMENT_PLACEMENT_SEPARATION"
+    "spacing_config": "@CHERRY_MONUMENT_PLACEMENT_SPACING",
+    "separation_config": "@CHERRY_MONUMENT_PLACEMENT_SEPARATION"
   },
   "structures": [
     {

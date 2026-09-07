@@ -2,8 +2,8 @@
   "placement": {
     "type": "ancient_remnants:configurable_random_spread",
     "salt": 129540,
-    "spacing": "@OAKWOOD_MONUMENT_PLACEMENT_SPACING",
-    "separation": "@OAKWOOD_MONUMENT_PLACEMENT_SEPARATION"
+    "spacing_config": "@OAKWOOD_MONUMENT_PLACEMENT_SPACING",
+    "separation_config": "@OAKWOOD_MONUMENT_PLACEMENT_SEPARATION"
   },
   "structures": [
     {
